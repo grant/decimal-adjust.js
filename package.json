@@ -1,0 +1,29 @@
+{
+  "name": "decimal-adjust",
+  "version": "0.0.0",
+  "description": "Decimal adjustment of a number.",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/grant/decimal-adjust.js.git"
+  },
+  "keywords": [
+    "decimal",
+    "adjust",
+    "round",
+    "floor",
+    "ceil"
+  ],
+  "author": "Grant Timmerman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grant/decimal-adjust.js/issues"
+  },
+  "homepage": "https://github.com/grant/decimal-adjust.js"
+}
