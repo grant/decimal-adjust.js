@@ -14,7 +14,7 @@ describe('decimalAdjust', function() {
     return decimalAdjust('ceil', value, exp);
   };
 
-  it('should round', function(){
+  it('should round', function() {
     assert.equal(55.6, Math.round10(55.55, -1));
     assert.equal(55.5, Math.round10(55.549, -1));
     assert.equal(60, Math.round10(55, 1));
@@ -25,14 +25,14 @@ describe('decimalAdjust', function() {
     assert.equal(-60, Math.round10(-55.1, 1));
   });
 
-  it('should floor', function(){
+  it('should floor', function() {
     assert.equal(55.5, Math.floor10(55.59, -1));
     assert.equal(50, Math.floor10(59, 1));
     assert.equal(-55.6, Math.floor10(-55.51, -1));
     assert.equal(-60, Math.floor10(-51, 1));
   });
 
-  it('should ceil', function(){
+  it('should ceil', function() {
     assert.equal(55.6, Math.ceil10(55.51, -1));
     assert.equal(60, Math.ceil10(51, 1));
     assert.equal(-55.5, Math.ceil10(-55.59, -1));
